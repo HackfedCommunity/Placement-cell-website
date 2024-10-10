@@ -59,10 +59,10 @@ We welcome contributions from everyone, whether you're a student at GBU or an ex
     - Wait for the project maintainers to review your PR.
 
 ### Opening Issues
-If you discover bugs, want to request a feature, or have questions, feel free to [open an issue](https://github.com/SOICT-GBU/Placement-Cell-Website/issues). 
+If you discover bugs, want to request a feature, or have questions, feel free to [open an issue](https://github.com/HackfedCommunity/Placement-Cell-Website/issues). 
 
 ### Contact Us
-If you need any help or clarification, feel free to reach out via GitHub discussions or email the project maintainers at `placement@gbu.edu`.
+If you need any help or clarification, feel free to reach out via GitHub discussions or email the project maintainers at `Hackfed.community@gmail.com`.
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project for personal or commercial use with attribution.
