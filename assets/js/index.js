@@ -6,17 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // You can add further interactions here, like scroll animations or menu effects.
 });
 
+function scrollToTarget(target) {
+    const element = target === '#' ? document.body : document.querySelector(target);
+    element.scrollIntoView({ behavior: 'smooth' });
+}
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+        scrollToTarget(this.getAttribute('href'));
     });
-});
-
-document.querySelector('a[href="#"]').addEventListener('click', function (e) {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
