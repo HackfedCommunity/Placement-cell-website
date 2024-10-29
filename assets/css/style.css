@@ -1,185 +1,221 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #f4f9ff;
-    color: #333;
+  background-color: #f4f9ff;
+  color: #333;
 }
 
-
 header {
-    background-color: #1a73e8;
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 10;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #1a73e8;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
 }
 
 nav .logo {
-    color: #fff;
-    font-size: 26px;
-    font-weight: bold;
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 nav .nav-links {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 nav .nav-links li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 nav .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
 }
 
 nav .nav-links a:hover {
-    color: #fdd835;
+  color: #fdd835;
 }
 
-
 .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: url('https://freedesignfile.com/upload/2022/12/Technology-background-design-vector-illustration.jpg') no-repeat center center/cover;
-    color: #fff;
-    height: 100vh;
-    padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("https://freedesignfile.com/upload/2022/12/Technology-background-design-vector-illustration.jpg")
+    no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  padding-top: 100px;
 
-    position: relative;
+  position: relative;
 }
 
 .hero-content {
-    margin-left: 100px;
-    animation: slideIn 1.5s ease;
+  margin-left: 100px;
+  animation: slideIn 1.5s ease;
 }
 
 .hero h1 {
-    font-size: 4rem;
-    color: black;
-    margin-bottom: 10px;
+  font-size: 4rem;
+  color: black;
+  margin-bottom: 10px;
 }
 
 .hero h3 {
-    font-size: 2rem;
-    color:black;
-    margin-bottom: 20px;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 20px;
 }
 
 .hero p {
-    color:black;
-    font-size: 1.5rem;
-    margin-bottom: 30px;
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
 }
 
 .hero .btn {
-    background-color: #fdd835;
-    padding: 12px 25px;
-    color: #1a73e8;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
+  background-color: #fdd835;
+  padding: 12px 25px;
+  color: #1a73e8;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
 }
 
 .hero .btn:hover {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-
 .about {
-    background-color: #e3f2fd;
-    padding: 100px 20px;
-    text-align: center;
+  background-color: #e3f2fd;
+  padding: 100px 20px;
+  text-align: center;
 }
 
 .about .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .about h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 
 .about p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
 }
 
 .about .vector {
-    max-width: 500px;
-    margin-top: 40px;
+  max-width: 500px;
+  margin-top: 40px;
 }
 
-
 .programs {
-    padding: 100px 20px;
-    background-color: #fff;
-    text-align: center;
+  padding: 100px 20px;
+  background-color: #fff;
+  text-align: center;
 }
 
 .programs h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 
 .program-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
 }
 
 .card {
-    background-color: #e8f0fe;
-    padding: 40px 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+  background-color: #e8f0fe;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .card-icon {
-    font-size: 50px;
-    margin-bottom: 20px;
-    color: #1a73e8;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #1a73e8;
 }
 
-
 @keyframes slideIn {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*Dropdown menu system from here*/
+@media (max-width: 768px) {
+  nav .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #1a73e8;
+  }
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav .nav-links li {
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+    font-weight: 550;
+    padding-left: 15px;
+  }
+
+  #menu-icon {
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 769px) {
+  #menu-icon {
+    display: none;
+  }
+
+  nav .nav-links {
+    display: flex;
+  }
 }
